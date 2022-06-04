@@ -1,4 +1,6 @@
 import React from "react";
+// Styles
+import { About } from "./styles/AboutUs.styled";
 
 const FaqSection = () => {
   return (

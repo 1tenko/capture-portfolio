@@ -7,13 +7,6 @@ export const About = styled.div`
   justify-content: space-between;
   padding: 5rem 10rem;
   color: white;
-  h2 {
-    padding-bottom: 5rem;
-  }
-  p {
-    width: 70%;
-    padding: 2rem 0rem 4rem 0rem;
-  }
 `;
 
 export const Description = styled.div`
@@ -54,5 +47,15 @@ export const Card = styled.div`
       color: black;
       padding: 1rem;
     }
+  }
+`;
+
+export const Services = styled(About)`
+  h2 {
+    padding-bottom: 5rem;
+  }
+  p {
+    width: 70%;
+    padding: 2rem 0rem 4rem 0rem;
   }
 `;

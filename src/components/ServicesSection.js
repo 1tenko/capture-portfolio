@@ -12,11 +12,12 @@ import {
   Image,
   Cards,
   Card,
+  Services,
 } from "./styles/AboutUs.styled";
 
 const ServicesSection = () => {
   return (
-    <About>
+    <Services>
       <Description>
         <div className="description">
           <h2>
@@ -60,7 +61,7 @@ const ServicesSection = () => {
       <Image>
         <img src={home2} alt="home2" />
       </Image>
-    </About>
+    </Services>
   );
 };
 
