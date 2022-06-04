@@ -16,3 +16,17 @@ export const Description = styled.div`
     font-weight: lighter;
   }
 `;
+
+export const Image = styled.div`
+  flex: 1;
+  overflow: hidden;
+  img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+  }
+`;
+
+export const Hide = styled.div`
+  overflow: hidden;
+`;

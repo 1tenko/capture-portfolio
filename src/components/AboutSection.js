@@ -1,32 +1,34 @@
 import React from "react";
 import home1 from "../img/home1.png";
 //Styles
-import { About, Description } from "./styles/AboutSection.Styled";
+import { About, Description, Image, Hide } from "./styles/AboutSection.Styled";
 
 const AboutSection = () => {
   return (
     <About>
       <Description>
         <div className="title">
-          <div className="hide">
+          <Hide>
             <h2>We work to make</h2>
-          </div>
-          <div className="hide">
+          </Hide>
+          <Hide>
             <h2>
               your <span>dreams</span> come
             </h2>
-            <div className="hide">
-              <h2>true.</h2>
-            </div>
-          </div>
-          <p>
-            Contact us for any photography or videography ideas that you have.
-            We have professionals with amazing skills to help you achieve it.
-          </p>
-          <button>Contact Us</button>
+          </Hide>
+          <Hide>
+            <h2>true.</h2>
+          </Hide>
         </div>
+        <p>
+          Contact us for any photography or videography ideas that you have. We
+          have professionals with amazing skills to help you achieve it.
+        </p>
+        <button>Contact Us</button>
       </Description>
-      <img src={home1} alt="guy with a camera" />
+      <Image>
+        <img src={home1} alt="guy with a camera" />
+      </Image>
     </About>
   );
 };
