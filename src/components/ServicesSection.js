@@ -12,7 +12,7 @@ import {
   Image,
   Cards,
   Card,
-} from "./styles/ServicesSection.styled";
+} from "./styles/AboutUs.styled";
 
 const ServicesSection = () => {
   return (
