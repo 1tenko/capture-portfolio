@@ -1,10 +1,10 @@
 import React from "react";
 // Styles
-import { About } from "./styles/AboutUs.styled";
+import { Faq } from "./styles/AboutUs.styled";
 
 const FaqSection = () => {
   return (
-    <div className="faq">
+    <Faq>
       <h2>
         Any Questions <span>FAQ</span>
       </h2>
@@ -17,6 +17,7 @@ const FaqSection = () => {
             deserunt?
           </p>
         </div>
+        <div className="faq-line"></div>
       </div>
 
       <div className="question">
@@ -28,6 +29,7 @@ const FaqSection = () => {
             deserunt?
           </p>
         </div>
+        <div className="faq-line"></div>
       </div>
 
       <div className="question">
@@ -39,6 +41,7 @@ const FaqSection = () => {
             deserunt?
           </p>
         </div>
+        <div className="faq-line"></div>
       </div>
 
       <div className="question">
@@ -50,8 +53,9 @@ const FaqSection = () => {
             deserunt?
           </p>
         </div>
+        <div className="faq-line"></div>
       </div>
-    </div>
+    </Faq>
   );
 };
 
