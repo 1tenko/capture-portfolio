@@ -1,10 +1,37 @@
 import React from "react";
+import { Link } from "react-router-dom";
+// Images
+import athlete from "../img/athlete-small.png";
+import theracer from "../img/theracer-small.png";
+import goodtimes from "../img/goodtimes-small.png";
+// Styles
+import { Work, Movie } from "../components/styles/OurWork.styled";
 
 const OurWork = () => {
   return (
-    <div>
-      <h1>Our Work</h1>
-    </div>
+    <Work>
+      <Movie>
+        <h2>The Athlete</h2>
+        <div className="line"></div>
+        <Link to="work">
+          <img src={athlete} alt="athlete" />
+        </Link>
+      </Movie>
+      <Movie>
+        <h2>The Racer</h2>
+        <div className="line"></div>
+        <Link to="work">
+          <img src={theracer} alt="the racer" />
+        </Link>
+      </Movie>
+      <Movie>
+        <h2>Good Times</h2>
+        <div className="line"></div>
+        <Link to="work">
+          <img src={goodtimes} alt="good times" />
+        </Link>
+      </Movie>
+    </Work>
   );
 };
 
